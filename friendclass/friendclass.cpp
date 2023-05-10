@@ -31,7 +31,7 @@ void orang::setNama(string pNama) {
 	nama = pNama;
 }
 
-int main()
+int main() 
 {
 	orang o;
 	o.setNama("Joko Kumat");
