@@ -9,7 +9,7 @@ public:
 	void showNilaiPelajar(pelajar&); 
 };
 
-class pelajar {
+class pelajar { 
 private:
 	int nilai;
 public:
