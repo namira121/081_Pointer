@@ -11,7 +11,7 @@ public:
 	friend class siswa; 
 };
 
-class siswa {
+class siswa { 
 private:
 	int id;
 public:
@@ -24,5 +24,21 @@ void siswa::displayAll(orang& a) {
 }
 
 void siswa::setId(int pId) {
+	id = pId;
+}
 
+void orang::setNama(string pNama) {
+	nama = pNama;
+}
+
+int main()
+{
+	orang o;
+	o.setNama("Joko Kumat");
+	siswa s;
+	s.setId(1);
+	s.displayAll(o);
+	cout << endl;
+	system("pause");
+	return 0;
 }
