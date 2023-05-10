@@ -21,7 +21,7 @@ int main()
 	mhs.showNim(); 
 
 	mahasiswa* pMhs = &mhs;		//Pointer Deference pMhs
-	pMhs->nim = 3;				//Arrow Operator
+	pMhs->nim = 3;			 	//Arrow Operator
 	pMhs->showNim();
 	system("pause");
 	return 0;
