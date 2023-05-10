@@ -8,7 +8,7 @@ private:
 	string nama;
 public:
 	void setNama(string pNama); 
-	friend class siswa;
+	friend class siswa; 
 };
 
 class siswa {
